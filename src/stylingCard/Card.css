@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main_card {
+  background-color: #FFF7DE;
+}
+
+.card_img img {
+  border-radius: 20px;
+}
+
+.card_details {
+  gap: 47px;
+  opacity: 0px;
+
+  width: 44rem;
+  display: flex;
+  line-height: 2;
+  flex-direction: column;
+}
+
+.card_details h2 {
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 32;
+  line-height: 43.14px;
+  letter-spacing: 4%;
+  text-align: center;
+  color: #CDA434;
+}
+
+.card_details p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: #8C7853;
+  list-style: none;
+
+
+}
+
+.card_details button {
+  width: 250px;
+  height: 69px;
+  padding: 15px 19px 15px 19px;
+  gap: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 11.16px;
+  opacity: 0px;
+  color: #FFFFFF;
+  border: none;
+  background: linear-gradient(90deg, #D4AF37 0%, #A37611 100%);
+
+}
